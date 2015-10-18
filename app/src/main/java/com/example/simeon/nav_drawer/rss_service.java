@@ -17,7 +17,7 @@ import android.os.Bundle;
 import android.os.ResultReceiver;
 import android.util.Log;
 //ll
-
+//Amol Sim
 public class rss_service extends IntentService {
 
     public static final String ITEMS = "items";
