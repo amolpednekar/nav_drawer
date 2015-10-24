@@ -20,9 +20,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".RssMainActivity"
-            android:label="RSS feed">
-        <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MainActivity"/>
-        </activity>
+            android:label="RSS feed"></activity>
+       <!-- parent-child activities -->
        <service android:name=".rss_service" />
     </application>
 </manifest>
