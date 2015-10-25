@@ -19,7 +19,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RssMainActivity"
+        <activity
+            android:name=".RssMainActivity"
             android:label="RSS feed"
             android:launchMode="singleTask"></activity>
        <!-- parent-child activities -->
