@@ -37,7 +37,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by Simeon on 19/09/2015.
+ * //Splash
  */
 public class RssMainActivity extends AppCompatActivity {
     static final int DIALOG_ERROR_CONNECTION = 1;
