@@ -57,7 +57,6 @@ public class RssMainActivity extends AppCompatActivity {
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         if (!isOnline(this)) {
             showDialog(DIALOG_ERROR_CONNECTION); //display no connection dialog
         } else {
@@ -142,7 +141,7 @@ public class RssMainActivity extends AppCompatActivity {
     protected void onPostCreate(Bundle savedInstanceState) {
         super.onPostCreate(savedInstanceState);
         // Sync the toggle state after onRestoreInstanceState has occurred.
-        mDrawerToggle.syncState();
+        //mDrawerToggle.syncState();
     }
 
     @Override
